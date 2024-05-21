@@ -1,0 +1,62 @@
+.body{
+    padding: 0;
+    margin: 0;
+}
+.section-1{
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+}
+.search{
+    margin: 20px;
+}
+.search-bar{
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    flex-grow: 1;
+}
+.search-button{
+    padding: 5px 15px;
+    margin: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.search-button:hover{
+    background-color: #3e8e41;
+}
+.section-2{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.view{
+    color: blue;
+}
+.section-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.image1,.image5,.image3,.image4{
+    border-radius: 50%;
+    margin: 20px;
+    width: 85%;
+}
+.image-caption {
+    margin-top: 5px;
+    font-weight: bold;
+    color: gray; /* Make the "Add Name" text a lighter gray */
+}
+.image-container {
+    margin: 5px;
+    text-align: center;
+}
